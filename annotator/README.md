@@ -8,15 +8,23 @@ This script does not demand a lot of resource, so it is ok to run on laptops (ex
 2. nextflow
 
 #Install
-singularity: This is usually pre-installed on HPC. If not, then run https://docs.sylabs.io/guides/3.0/user-guide/installation.html
+singularity: This is usually pre-installed on HPC. If not, then run https://docs.sylabs.io/guides/3.0/user-guide/installation.html.
+
 java:  Install  Java 11 (or later, up to 20) as this is need by nextflow. Usually this is preinstall. Check installation by 
-         > java --version
+
+```
+java --version
+```
+
 nextflow: Once java is installed,   run 
-         > wget -qO- https://get.nextflow.io | bash
+```
+wget -qO- https://get.nextflow.io | bash
+
+```
 
 # Run
 
-bash run.sh
+bash run.sh # set up nextflow.config before running
 
 
 # Suggestion
