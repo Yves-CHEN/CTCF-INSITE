@@ -7,7 +7,7 @@ This script does not demand a lot of resource, so it is ok to run on laptops (ex
 1. singularity or docker
 2. nextflow
 
-#Install
+# Install
 singularity: This is usually pre-installed on HPC. If not, then run https://docs.sylabs.io/guides/3.0/user-guide/installation.html.
 
 java:  Install  Java 11 (or later, up to 20) as this is need by nextflow. Usually this is preinstall. Check installation by 
