@@ -14,12 +14,12 @@ java:  Install  Java 11 (or later, up to 20) as this is need by nextflow. Usuall
 nextflow: Once java is installed,   run 
          > wget -qO- https://get.nextflow.io | bash
 
-#Run
+# Run
 
 bash run.sh
 
 
-#Suggestion
+# Suggestion
 1. Run on HPC for quicker performance. You can set multiple CPUs.
 2. Adjust the nextflow.config to set up correct paths, e.g. path to hg19.fa
 3. Use singularity over Docker, as later is usually not supported by HPC.

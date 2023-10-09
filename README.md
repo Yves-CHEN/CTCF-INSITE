@@ -3,7 +3,7 @@ CTCF-INSITE is a very useful tool to predict the persistently-bound CTCF-BS (P-C
 
 # How to run
 Step1: generate an annotation file
-> cd annotator
+> cd annotator \\
 > bash run.sh # set the parameter from nextflow.config before hiting the run
 
 Step2: run prediction
