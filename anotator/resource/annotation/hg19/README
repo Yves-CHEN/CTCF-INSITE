@@ -1,7 +1,0 @@
-
-source: 
-LNCaP.TAD.40kb.bed    "The TAD domain identified from HiC"  ref:
-40.celltype.chipseq/1-s2.0-S2211124715007640-mmc2.csv     "cell type variation of CTCF bidnding"  ref: https://www.sciencedirect.com/science/article/pii/S2211124715007640
-
-refGeneExtent.hg19.bed.gz  "the annotation of different genetic domains" 
-

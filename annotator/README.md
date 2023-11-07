@@ -26,6 +26,12 @@ wget -qO- https://get.nextflow.io | bash
 
 bash run.sh # set up nextflow.config before running
 
+# modify nextflow.config
+
+params.chipF = "<path-to-your-ChIP-seq-narrowPeak file>"
+params.genomeRef = "<path-to-your-reference-genome>"
+
+
 
 # Suggestion
 1. Run on HPC for quicker performance. You can set multiple CPUs.
